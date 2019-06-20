@@ -26,7 +26,7 @@ class TownTest {
 	}
 
 	// -----------------------------------------------------------------------------------------
-	// UNIT TESTS FOR MEHTOD add_neighbor
+	// UNIT TESTS FOR METHOD add_neighbor
 	// Equivalence classes:
 	// argument = string -> returns true
 	// argument = nil -> returns false

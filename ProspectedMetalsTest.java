@@ -54,41 +54,7 @@ class ProspectedMetalsTest {
 		
 	}
 
-	// UNIT TESTS FOR METHOD display_silver(prospector)
-	// Equivalence classes:
-	// prospector.silver != 1 -> returns "[prospector.silver] ounces of silver."
-	// prospector.silver = 1 -> returns "[prospector.silver] ounce of silver."
 
-	// assure silver ounce is plural
-	/*
-	 * @Test void test_display_mulitple_silver() { Prospector mockProspector = new
-	 * Prospector(0); mockProspector.silver = 7; Game mockGame = new Game(0, 0);
-	 * assertEquals("\t7 ounces of silver.",
-	 * mockGame.displaySilver(mockProspector)); }
-	 * 
-	 * // assure silver ounce is singular // EDGE CASE def
-	 * test_display_single_silver mock_prospector = Prospector.new(nil)
-	 * mock_prospector.silver = 1 mock_game = Game.new(0, nil) assert_equal
-	 * "\t1 ounce of silver.", mock_game.display_silver(mock_prospector) end
-	 * 
-	 * 
-	 * // UNIT TESTS FOR METHOD display_gold(prospector) // Equivalence classes: //
-	 * prospector.gold != 1 -> returns "[prospector.gold] ounces of gold." //
-	 * prospector.gold = 1 -> returns "[prospector.gold] ounce of gold."
-	 * 
-	 * // assure gold ounce is plural 
-	 * def test_display_mulitple_gold 
-	 * mock_prospector = Prospector.new(nil) mock_prospector.gold = 8 mock_game = Game.new(0, nil)
-	 * assert_equal "\t8 ounces of gold.", mock_game.display_gold(mock_prospector)
-	 * end
-	 * 
-	 * // assure gold ounce is singular // 
-	 * EDGE CASE def test_display_single_gold
-	 * mock_prospector = Prospector.new(nil) mock_prospector.gold = 1 mock_game =
-	 * Game.new(0, nil) assert_equal "\t1 ounce of gold.",
-	 * mock_game.display_gold(mock_prospector) end
-	 * 
-	 */
 	
 	  // UNIT TESTS FOR METHOD convert_to_money(prospector) // Equivalence classes:
 	  // Digits up to hundredth decimal place = 123.45 -> returns
