@@ -2,13 +2,13 @@
 public class Map {
 
     public Town startTown, current;
-    Town sutterCreek = new Town("Sutter Creek", 0, 2);
-    Town coloma = new Town("Coloma", 0, 3);
-    Town angelsCamp = new Town("Angels Camp", 0, 4);
-    Town nevadaCity = new Town("Nevada City", 0, 5);
+    Town sutterCreek = new Town("Sutter Creek", 2, 0);
+    Town coloma = new Town("Coloma", 3, 0);
+    Town angelsCamp = new Town("Angels Camp", 4, 0);
+    Town nevadaCity = new Town("Nevada City", 5, 0);
     Town virginiaCity = new Town("Virginia City", 3, 3);
-    Town midas = new Town("Midas", 5, 0);
-    Town elDoradoCn = new Town("El Dorado Cn", 10, 0);
+    Town midas = new Town("Midas", 0, 5);
+    Town elDoradoCn = new Town("El Dorado Cn", 0, 10);
 
     public Map() {
         startTown = null;

@@ -42,8 +42,10 @@ public class Game {
 
 	public void runPros(Prospector currentProspector, int i) {
 		int j = i + 1;
+		int days = 0;
 		System.out.println("Prospector " + (j) + " starting in Sutter Creek.");
 		while (!checkTownsVisited(currentProspector)) {
+			days++;
 			currentTown = map.current;
 			int silver = findSilver(currentProspector, map.current.silver);
 			int gold = findGold(currentProspector, map.current.gold);
@@ -61,6 +63,9 @@ public class Game {
 			}
 
 		}
+		System.out.println("After " + days + "days Prospector #" + j + "returned to San Francisco with:");
+		System.out.println(currentProspector.gold + "ounces of gold.");
+		System.out.println(currentProspector.silver + "ounces of silver.");
 		convertToMoney(currentProspector);
 
 	}
